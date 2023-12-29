@@ -13,7 +13,7 @@ const Home = () => {
     {
       title: "Learning Javascript",
       body: "Javascript is an essential programming language for anyone looking to become a skilled web developer. It allows for dynamic content on websites, interactive forms, smooth animations, and much more. If you're new to coding or have experience with other languages like HTML or CSS, learning Javascript may seem daunting at first. However, there are many tutorials available online that can help break down the concepts into manageable chunks. By dedicating time each day to practice writing code in Javascript, you'll soon find yourself feeling more confident in your abilities as a developer.",
-      author: "Chatty",
+      author: "Betty",
       id: "2",
       link: "#blog2",
     },
@@ -27,7 +27,8 @@ const Home = () => {
   ]);
   return (
     <div className="home">
-    <Bloglist blogs={blogs} />
+    <Bloglist blogs={blogs} title="All Blogs!"/>
+    <Bloglist blogs={blogs.filter( (blog) => blog.author === "Chatty")} title="Chatty's Blogs!"/>
     </div>
   );
 };
