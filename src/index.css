@@ -82,3 +82,9 @@ body {
   background-color: white;
   color: #f1356d  
 }
+
+.blog-heading {
+  border-bottom: 5px solid #f1356d;
+  padding-bottom: 3px;
+  display: inline-block; 
+}
