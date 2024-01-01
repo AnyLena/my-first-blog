@@ -47,18 +47,14 @@ body {
 }
 
 .blog-preview {
-  padding: 30px;
-  margin: 20px 0;
+  padding: 0px;
+  margin: 40px 0;
   border-bottom: 1px solid #fafafa;
-}
-
-.blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1)
 }
 
 .blog-preview h2 {
   font-size: 20px;
-  margin-bottom: 8px;
+  margin-bottom: 18px;
   color: #f1356d;
 }
 
